@@ -1,0 +1,75 @@
+body {
+	width: 100%;
+	max-width: 1024px;
+	margin: 0 auto;
+	background-color: #999;
+	font-size: 100%;
+}
+
+header,
+main {
+    background-color: #ddd;
+    padding: 1.5em 1.3em 1.5em 1.8em;
+}
+.c {
+    color: #ff4d4d;
+    font-weight: bold;
+    font-size: 150%;
+    text-shadow: 2px 1px black;
+}
+
+.s1 {
+    color: #00b386;
+    font-weight: bold;
+    font-size: 150%;
+    text-shadow: 2px 1px black;
+}
+
+.s2 {
+    color: #4d4dff;
+    font-weight: bold;
+    font-size: 150%;
+    text-shadow: 2px 1px black;
+}
+
+.exclamation {
+    color: #ffff66;
+    font-weight: bold;
+    font-size: 150%;
+    text-shadow: 2px 1px black;
+}
+blockquote {
+    background: #ccc;
+    border-left: 10px solid #099;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+    quotes: "\201c""\201d""\2018""\2019";
+}
+blockquote:before {
+    color: #099;
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+}
+blockquote p{
+    display: inline;
+}
+blockquote:after {
+    color: #099;
+    content: close-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-left: 6em;
+    vertical-align: 0em;
+}
+
+#cap {
+    font-size: 0.7em;
+}
+
+img {
+    width: 45%;
+    height: auto;
+}
